@@ -1,0 +1,47 @@
+# Игнорирование виртуальных окружений
+venv/
+.env/
+env/
+
+# Игнорирование файлов, связанных с конфигурацией и логами
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.sqlite3
+
+# Игнорирование временных файлов редакторов
+.idea/
+.vscode/
+*.swp
+*~
+
+# Игнорирование настроек операционной системы
+.DS_Store
+Thumbs.db
+
+# Игнорирование результатов тестов и отчётов
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+.cache/
+.pytest_cache/
+nosetests.xml
+coverage/
+
+# Игнорирование файлов конфигурации Docker
+docker-compose.override.yml
+
+# Игнорирование пакетов, сгенерированных инструментами
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# Игнорирование пользовательских данных
+*.env
+.env.local
